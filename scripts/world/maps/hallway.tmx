@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="45">
+ <editorsettings>
+  <export target="hallway.lua" format="lua"/>
+ </editorsettings>
+ <layer id="1" name="Слой тайлов 1" width="20" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="2" name="Слой изображений 1">
+  <image source="../../../assets/sprites/rooms/sprite_hallway.png" width="319" height="184"/>
+ </imagelayer>
+ <objectgroup id="3" name="Collision">
+  <object id="1" x="0.53346" y="0.53346" width="317.409" height="4.26768"/>
+  <object id="5" x="0" y="168.04" width="138.7" height="3.73422"/>
+  <object id="7" x="134.432" y="172.308" width="57.0803" height="10.6692"/>
+  <object id="9" x="188.312" y="166.973" width="129.631" height="5.3346"/>
+  <object id="11" x="312.074" y="1.06692" width="6.40152" height="171.241"/>
+  <object id="34" x="1.06692" y="0.53346" width="136.566" height="86.4206"/>
+  <object id="40" x="191.512" y="4.26768" width="120.562" height="97.0898"/>
+  <object id="41" x="310.474" y="4.80114"/>
+ </objectgroup>
+ <objectgroup id="4" name="objects">
+  <object id="25" name="transition" x="136.032" y="4.26768" width="51.7457" height="82.1529">
+   <properties>
+    <property name="map" value="kitchen"/>
+    <property name="marker" value="spawn_kitchen"/>
+   </properties>
+  </object>
+  <object id="33" name="transition" x="283.801" y="57.6137" width="28.8069" height="107.226">
+   <properties>
+    <property name="map" value="bathroom"/>
+    <property name="marker" value="spawn_bathroom"/>
+   </properties>
+  </object>
+  <object id="38" name="transition" x="0" y="87.4665" width="8.52965" height="80">
+   <properties>
+    <property name="map" value="bedroom"/>
+    <property name="marker" value="spawn_bedroom"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="markers">
+  <object id="32" name="spawn2" x="262.995" y="132.298"/>
+  <object id="36" name="spawn3" x="41.6099" y="123.763"/>
+  <object id="44" name="spawn" x="162.538" y="124.347"/>
+ </objectgroup>
+</map>

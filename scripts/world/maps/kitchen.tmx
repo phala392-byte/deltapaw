@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="20" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="55">
+ <editorsettings>
+  <export target="kitchen.lua" format="lua"/>
+ </editorsettings>
+ <layer id="1" name="Слой тайлов 1" width="20" height="17">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="2" name="Слой изображений 1">
+  <image source="../../../assets/sprites/rooms/sprite_kitchen.png" width="319" height="268"/>
+ </imagelayer>
+ <objectgroup id="3" name="Collision">
+  <object id="4" x="2" y="262" width="132" height="5"/>
+  <object id="12" x="188" y="261.333" width="130" height="6.66667"/>
+  <object id="14" x="313.333" y="82.6667" width="4" height="176"/>
+  <object id="15" x="267.333" y="212" width="31.3333" height="32"/>
+  <object id="17" x="258.667" y="0.666667" width="50.6667" height="214"/>
+  <object id="27" x="0" y="152.667" width="5.33333" height="113.333"/>
+  <object id="35" x="74.6844" y="176.575" width="81.086" height="39.4761"/>
+  <object id="39" x="0.53346" y="1.06692" width="5.3346" height="148.835"/>
+  <object id="45" x="8.00191" y="0.53346" width="250.193" height="150.969"/>
+  <object id="46" x="261.929" y="3.20076"/>
+  <object id="47" x="46.9445" y="168.573" width="2.6673" height="61.8814"/>
+  <object id="49" x="46.9445" y="191.512" width="23.4723" height="37.8757"/>
+  <object id="51" x="179.776" y="168.04" width="3.73422" height="62.9483"/>
+  <object id="53" x="160.038" y="191.512" width="23.4723" height="39.4761"/>
+  <object id="54" x="268.331" y="11.7361"/>
+ </objectgroup>
+ <objectgroup id="4" name="markers">
+  <object id="29" name="spawn_kitchen" x="171.669" y="247.463"/>
+ </objectgroup>
+ <objectgroup id="5" name="objects">
+  <object id="43" name="transition" x="133.899" y="260.862" width="54.9464" height="5.86806">
+   <properties>
+    <property name="map" value="hallway"/>
+    <property name="marker" value="spawn"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

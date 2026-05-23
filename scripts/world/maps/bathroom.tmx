@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="15" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="26">
+ <editorsettings>
+  <export target="bathroom.lua" format="lua"/>
+ </editorsettings>
+ <layer id="1" name="Слой тайлов 1" width="15" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="3" name="Слой изображений 1">
+  <image source="../../../assets/sprites/rooms/sprite_bathroom.png" width="234" height="255"/>
+ </imagelayer>
+ <objectgroup id="4" name="Collision">
+  <object id="1" x="1.06692" y="-0.53346" width="232.055" height="5.86806"/>
+  <object id="3" x="227.254" y="0" width="5.86806" height="253.394"/>
+  <object id="5" x="0.53346" y="249.126" width="232.055" height="4.80114"/>
+  <object id="7" x="0.53346" y="221.92" width="4.80114" height="32.5411"/>
+  <object id="9" x="0" y="-0.53346" width="5.3346" height="167.507"/>
+  <object id="11" x="20.805" y="17.6042" width="55.4799" height="155.237"/>
+  <object id="13" x="76.8183" y="90.1548" width="65.6156" height="73.6175"/>
+  <object id="15" x="160.572" y="69.3498" width="60.8145" height="82.1529"/>
+  <object id="22" x="197.38" y="163.239" width="25.0726" height="40.543"/>
+  <object id="24" x="155.77" y="190.979" width="44.8107" height="49.0784"/>
+  <object id="25" x="233.122" y="130.698"/>
+ </objectgroup>
+ <objectgroup id="5" name="objects">
+  <object id="19" name="transition" x="-0.53346" y="167.507" width="4.26768" height="53.8795">
+   <properties>
+    <property name="map" value="hallway"/>
+    <property name="marker" value="spawn2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="markers">
+  <object id="21" name="spawn_bathroom" x="48.0115" y="217.652"/>
+ </objectgroup>
+</map>
